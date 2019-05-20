@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Beta Docnu]">
+  <listeners>
+    <listener class-name="Utitlity.ExtentReportsNG"/>
+  </listeners>
+  <test thread-count="5" name="docnu(failed)">
+    <classes>
+      <class name="TestCases.Login_testcase">
+        <methods>
+          <include name="setup_browser"/>
+          <include name="close_browser"/>
+          <include name="Login_Valid"/>
+        </methods>
+      </class> <!-- TestCases.Login_testcase -->
+    </classes>
+  </test> <!-- docnu(failed) -->
+</suite> <!-- Failed suite [Beta Docnu] -->
